@@ -1,0 +1,93 @@
+.login-color{
+    width: 100%;
+    background: linear-gradient(313.79deg, #2855ae 
+    -3.15%, #7292cf 100%);
+}
+
+
+.form-login img{
+    width: 29.5rem;
+    margin-top: 6.7rem;
+    margin-left: 6.4rem;
+}
+
+.form-login h2{
+ color: #ffff;
+ font-size: var(--Titulo); 
+ font-weight: 600;  
+ margin-top: 2.3rem;
+ margin-left: 3rem;
+}
+
+.form-login h3{
+    color: rgb(255, 255, 255, 0.5);
+    font-size: var(--sub);
+    font-weight: 400;
+    margin-top: 0.4rem;
+    margin-left: 3rem;
+}
+
+/* Formulario */ 
+
+.form-login{
+    max-width: 37.5rem;
+   
+}
+.formulario{
+    background-color: #ffff;
+    border-radius: 4rem 4rem 0rem 0rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 3rem;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label{
+    color: var(--gris-claro);
+    margin-top: 5rem;
+    width:80% ;
+    font-size: var(--texto);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label input{
+    height: 4rem;
+    outline: none;
+    width: 100%;
+
+    border:0;
+    border-bottom: 1px solid var(--gris-claro);
+    margin-top: 0.8rem;
+}
+
+.formulario button{
+    font-family: 'Source Sans Pro', sans-serif;
+    background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%);
+    border: none;
+    display: block; 
+    height: 54px;
+    width: 80%;
+    margin: 3rem auto;
+    color: #ffff;
+    height: 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.form-login pre{
+    font-size: var(--parrafo);
+    padding-left: 5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.formulario a{
+    font-size: var(--parrafo);
+    color: var(--gris-oscuro);
+    text-decoration: none;
+    margin-right: 3.1rem;
+}

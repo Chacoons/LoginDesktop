@@ -1,0 +1,41 @@
+* {
+    margin: auto;
+    padding: auto;
+  }
+  
+  html {
+    font-size: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+
+:root {
+    /* Paleta de colores */
+ --azul: #345FB4;
+ --azul-pastel: #6789CA;
+ --negro: #313131;
+ --gris-oscuro: #777777;
+ --gris-claro: #A5A5A5;
+ --gradient-blue:linear-gradient(313.78deg, #2855AE -3.15%, #7292CF 100%);
+}
+
+.section-body{
+    max-width: 37.5rem;
+    height: auto;
+    margin: auto;
+}
+    /* Tamano de fuente */
+    :root{
+    --Titulo: 3.4rem;
+    --sub: 2.0rem;
+    --texto:1.2rem;
+    --parrafo:1.6rem;
+    --Texto-botones:1.8rem;
+    --size-h2: 2.6rem;
+    --size-h3: 1.8rem;
+}
+
+.background-section {
+    width: 100%;
+}

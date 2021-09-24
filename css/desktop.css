@@ -1,0 +1,35 @@
+
+.login-color{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.form-login{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+ .form-login img{
+     width: 50rem;
+     height: 50rem;
+    margin-top: 15rem;
+    margin-left: -50rem;
+ }
+
+ .formulario{
+     width: 37.5rem;
+     margin-top: 20rem;
+     margin-right: -35rem;
+ }
+ 
+ .form-login h2{
+     margin-top:25rem ;
+    align-self: center;
+ }
+ .form-login h3{
+     margin-top: 30rem;
+     align-self: center;
+     margin-left: -15rem;
+ }
